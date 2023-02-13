@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- aplicando boostrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <!-- estilos Css -->
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Miel Angirú-Contacto</title>
+</head>
+
+<body class="bodycontacto">
+    <header class="headercontacto">
+        <!-- logo -->
+        <a class="aimglogo" href="../index.html">
+            <img class="imglogo img-fluid" src="../multimedia/imagen/logoredondo.png" alt="logo">
+        </a>
+        <!-- pages -->
+        <nav class="navpages">
+            <ul class="ulpages ulclass nav justify-content-center">
+                <li class="lipages nav-item"><a class="apages nav-link active" href="../index.html">Inicio</a></li>
+                <li class="lipages nav-item"><a class="apages nav-link active" href="./contacto.html">Contacto</a></li>
+                <li class="lipages nav-item"><a class="apages nav-link active" href="./jaleareal.html">Jalea Real</a></li>
+                <li class="lipages nav-item"><a class="apages nav-link active" href="./miel.html">Miel</a></li>
+                <li class="lipages nav-item"><a class="apages nav-link active" href="./polen.html">Polen</a></li>
+                <li class="lipages nav-item"><a class="apages nav-link active" href="./propoleo.html">Propoleo</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--Formulario-->
+    <main class="maincontacto">
+        <section class="sectcontacto">
+            <!-- Titulo -->
+            <a class="atitulo titulocontacto" href="../index.html">
+                <h1 class="h1titulo display-3">MIEL ANGIRÚ</h1>
+            </a>
+            <article class="artcontacto">
+                <p class="pclass">Si quieres ponerte en contacto con nosotros para adquirir nuestros productos, hazlo a
+                    través del
+                    siguiente
+                    formulario:
+                </p>
+            </article>
+            <form class="formcontacto" action="">
+                <div>
+                    <label for="nombre">Inserte su nombre</label>
+                    <input type="text" name="nombre" id="nombre" placeholder="Lionel">
+                </div>
+                <div>
+                    <label for="apellido">Inserte su apellido</label>
+                    <input type="text" name="apellido" id="apellido" placeholder="Messi">
+                </div>
+                <div>
+                    <label for="email">Inserte su email</label>
+                    <input type="email" name="email" id="email" placeholder="angiru@gmail.com">
+                </div>
+                <label>Seleccione su presentacion de miel preferida:</label>
+                <select name="envase" id="envase">
+
+                    <option value="">1kg</option>
+                    <option value="">500gr</option>
+                    <option value="">250gr</option>
+                </select>
+                <div>
+                    <textarea name="consulta" id="" cols="30" rows="10"
+                        placeholder="Ingrese que producto desea adquirir"></textarea>
+                </div>
+                <input type="reset">
+                <input type="submit">
+
+            </form>
+        </section>
+
+    </main>
+
+    <footer class="footercontacto">
+        <nav class="navfooter">
+            <p class="pclass">
+                &copy;Facundo Piangatelli
+                <a target="_blank" href="https://www.instagram.com/miel_angiru"><img
+                        src="../multimedia/imagen/instagram-logo.png" alt="logo instagram" class="imgfooter"></a>
+
+
+            </p>
+        </nav>
+
+    </footer>
+
+</body>
+
+</html>
