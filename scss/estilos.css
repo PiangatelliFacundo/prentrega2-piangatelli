@@ -6,6 +6,7 @@
   padding: 0%;
 }
 
+/*algo/*
 /*Index*/
 body {
   background-color: rgba(252, 248, 16, 0.671);
@@ -39,7 +40,8 @@ nav {
 /*aplicando grid*/
 .grid-padre {
   display: grid;
-  column-gap: 10px;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
   row-gap: 10px;
   grid-template-areas: "header" "main" "footer";
   grid-template-columns: auto;
@@ -172,7 +174,8 @@ nav {
 /* Aplicando Grid */
 .bodycontacto {
   display: grid;
-  column-gap: 10px;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
   row-gap: 10px;
   grid-template-areas: "header" "body" "footer";
 }
@@ -293,26 +296,27 @@ nav {
 /* index responsive */
 @media screen and (min-width: 768px) {
   .bodyheader {
-    column-gap: 15px;
+    -moz-column-gap: 15px;
+         column-gap: 15px;
     row-gap: 15px;
     grid-template-areas: "header main header" "main" "footer";
     grid-template-columns: auto;
     grid-template-rows: auto;
   }
   .headerindex {
-    column-gap: 15px;
+    -moz-column-gap: 15px;
+         column-gap: 15px;
     row-gap: 15px;
   }
 }
 /* grid responsive contacto */
 @media screen and (min-width: 768px) {
   .bodycontacto {
-    column-gap: 15px;
+    -moz-column-gap: 15px;
+         column-gap: 15px;
     row-gap: 15px;
     grid-template-areas: "header" "body" "footer";
     grid-template-columns: auto;
     grid-template-rows: auto;
   }
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=estilos.css.map */
