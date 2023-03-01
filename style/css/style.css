@@ -8,7 +8,7 @@
 
 /*Index*/
 body {
-  background-color: rgba(252, 248, 16, 0.671);
+  background-color: yellow;
 }
 
 nav {
@@ -314,5 +314,12 @@ nav {
     grid-template-rows: auto;
   }
 }
+/*maps*/
+.pfooter {
+  color: #3673D9;
+  font-size: 20px;
+}
+
+/*extend*/
 
 /*# sourceMappingURL=style.css.map */

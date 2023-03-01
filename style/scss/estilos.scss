@@ -1,3 +1,5 @@
+
+
 /*anidando*/
 /*import google fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300;1,400&family=Roboto+Mono:ital,wght@0,400;1,300&display=swap');
@@ -6,10 +8,9 @@
     margin: 0%;
     padding: 0%;
 }
-/*Index*/
-
+/*Index*/ 
 body {
-    background-color: rgba(252, 248, 16, 0.671);
+    background-color: yellow;
 }
 nav {
     padding: 20px 20px 20px 20px;
@@ -21,7 +22,7 @@ nav {
 
 /*estilos = para h2,h3 y h4*/
 .hclass {
-    color: black;
+    color:black;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -336,8 +337,17 @@ nav {
         grid-template-columns: auto;
         grid-template-rows: auto;
     }
-
-
-
-
 }
+/*maps*/
+$estilos: (
+  color: #3673D9,
+  tfuente:20px,
+);
+.pfooter
+ {
+  color: map-get($map: $estilos, $key:color );
+  font-size: map-get($map: $estilos, $key:tfuente );
+}
+/*extend*/
+
+
