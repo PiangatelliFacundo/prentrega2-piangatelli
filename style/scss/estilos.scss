@@ -4,6 +4,32 @@
 /*import google fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300;1,400&family=Roboto+Mono:ital,wght@0,400;1,300&display=swap');
 
+/*Scss maps*/
+$estilos: (
+  color: #3673D9,
+  tfuente:20px,
+);
+.pfooter
+ {
+  color: map-get($map: $estilos, $key:color );
+  font-size: map-get($map: $estilos, $key:tfuente );
+}
+/*extend*/
+.imgabeja{
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border: solid 1px black;
+}
+.imgproducto{
+    @extend .imgabeja
+}
+.iframe{
+    @extend .imgabeja
+}
+
+
+/*==============================*/
 * {
     margin: 0%;
     padding: 0%;
@@ -338,16 +364,6 @@ nav {
         grid-template-rows: auto;
     }
 }
-/*maps*/
-$estilos: (
-  color: #3673D9,
-  tfuente:20px,
-);
-.pfooter
- {
-  color: map-get($map: $estilos, $key:color );
-  font-size: map-get($map: $estilos, $key:tfuente );
-}
-/*extend*/
+
 
 
